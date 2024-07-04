@@ -1,0 +1,192 @@
+
+ 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /* Para utilizar rem */
+  font-size: 62.5%;
+}
+
+#header-img{
+  width:10%;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+.logo-title{
+  position: absolute;
+  top: 38%;
+  left: 16%;
+}
+nav ul{
+  position: absolute;
+  top: 41%;
+  left: 48%;
+  display: flex;
+  list-style: none;
+  font-size: 1.4rem;
+}
+li{
+  margin-left: 3%;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+#video{
+  width: 69%;
+  height: 286px;
+}
+#hero{
+display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+p{
+font-family: 'Roboto', sans-serif;
+font-style: italic;
+font-weight: 300;
+font-size: 1.6rem;
+}
+h3{
+font-size: 1.2rem;
+font-family: 'Lato', sans-serif;
+}
+h2{
+  font-size: 2rem;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+h4{
+  font-size: 1.6rem;
+  text-decoration: underline;
+  margin-bottom: 2%;
+}
+
+#pricing{
+margin-top: 5%;
+}
+.boxes{
+display: flex;
+flex-direction: column;
+align-items: center;
+border: 1px solid grey;
+width: 90%;
+text-align: center;
+margin-left: 5%;
+margin-top: 5%;
+}
+.iconos{
+font-size: 3rem;
+color:darkorange;
+margin-top: 5%;
+}
+#appointment{
+display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4%;
+  }
+
+#btn{
+margin-left: 11%;
+ margin-top: 3%;
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid #ffd819;
+  background: #ffd819;
+}
+.buttons{
+
+margin-top: 3%;
+ margin-bottom: 3%;
+ color: #fff;
+ padding: 5px 10px;
+ font-weight: bold;
+ cursor: pointer;
+ transition: all 0.3s ease;
+ position: relative;
+ display: inline-block;
+ outline: none;
+ border-radius: 20px;
+ border: 2px solid #ffd819;
+ background: #ffd819;
+
+}
+#header{
+position: sticky;
+top: 0;
+background-color: #eee;
+}
+
+@media (min-width: 1024px) {
+
+nav ul{
+  
+  margin-left: 14%;
+     }
+ li{
+  margin-left: 15%;
+}
+ html{
+  font-size: 0.8rem;
+ }
+ .logo-title{
+  top:39%;
+ }
+ #header-img{
+  width:7%;
+  margin-left: 8%;
+  margin-top: 3%;
+  margin-bottom:3%;
+  
+ }
+ header{
+  top:0;
+  
+ }
+}
+@media only screen and (min-width: 768px) {
+  h3{
+    font-size: 2.5rem;
+  }
+ nav ul{
+  font-size: 2.5rem;
+  margin-left: 10%;
+ }
+
+}
+@media (min-width: 992px) { 
+  h3{
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+ nav ul{
+  font-size: 2.5rem;
+  position: absolute;
+  top: 29%;
+  left: 35%;
+ }
+ #header-img{
+  width: 10%;
+  margin: 0;
+}
+.logo-title {
+  top: 29%;
+}
+h2{
+  font-size: 2rem;
+}
+ }
